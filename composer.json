@@ -1,0 +1,13 @@
+{
+    "name": "squirrel/selenium-tests",
+    "require": {
+        "facebook/webdriver": "dev-master",
+        "behat/mink-selenium2-driver": "1.1.*@dev",
+        "behat/behat": "2.5.*@stable",
+        "behat/mink": "1.5.*@dev",
+        "behat/mink-extension": "*"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}

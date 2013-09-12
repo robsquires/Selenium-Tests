@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<style>
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,600);
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+html { 
+
+    font-size: 300%; 
+    overflow-y: scroll; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+}
+
+body{
+    font-family: 'Raleway', cursive;
+    color: #333;
+    background-color: #fff;
+    border-color: #999999;
+    border-width: 2px;
+    line-height: 1.5;
+    margin: 1em 0em;
+    text-align:left;
+    padding: 0 100px 0 100px;
+}
+
+#parent {
+    height:595px;
+    width:600px;
+    border:2px solid black;
+}
+#child {
+    display:none;
+}
+
+#parent:hover #child{
+    display:block;
+}
+
+
+</style>
+</head>
+
+<body>
+<div id="parent">
+    <div id="child">
+        I've been hovered
+    </div>
+</div>
+
+
+
+</body>
+
+
+</html>

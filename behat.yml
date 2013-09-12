@@ -1,0 +1,8 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            selenium2:
+                wd_host: 127.0.0.1:8910/wd/hub
+                capabilities: { "browserName": "phantomjs", "deviceType": "desktop"}
+            default_session: selenium2
+            base_url: 'http://localhost'
